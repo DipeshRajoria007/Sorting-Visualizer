@@ -69,7 +69,7 @@ const SideBar = ({ generating, sorting, generateArray, sort ,setInfo }) => {
         </Button>
         <Button onClick={()=>{sort(formState.algorithm) 
         }} colorScheme="purple" variant="outline">
-          { sorting ? <Spinner /> : "Sort"}
+          Sort
         </Button>
       </Flex>
     </Box>
